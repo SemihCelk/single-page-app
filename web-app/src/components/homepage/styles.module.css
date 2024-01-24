@@ -1,0 +1,10 @@
+.triangle {
+  position: absolute;
+  top: 12rem;
+  left: 0;
+  height: 0;
+  border-left: 100vw solid transparent;
+  border-bottom: 90vh solid #fef3c7;
+  background-color: #fefbeb;
+  z-index: 0;
+}
