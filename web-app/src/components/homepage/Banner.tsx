@@ -33,7 +33,7 @@ function CollectibleSneakers() {
         </div>
         <div className={styles.triangle}></div>
         <div className="w-4/12 relative">
-          <div className=" 2xl:w-96 w-80 2xl:h-96 h-80 bg-amber-400 rounded-3xl">
+          <div className=" 2xl:w-96 w-9/12 2xl:h-96 h-80 bg-amber-400 rounded-3xl ms-2">
             {" "}
           </div>
           <Image
@@ -45,8 +45,8 @@ function CollectibleSneakers() {
           />
         </div>
       </div>
-
-      <div className="relative md:flex gap-10 md:mt-40">
+      <div className="md:my-20 h-1"></div>
+      <div className="relative md:flex gap-10">
         <div className="w-4/12">
           <div className="relative">
             <svg
@@ -67,7 +67,9 @@ function CollectibleSneakers() {
               <Image src="/trophy.svg" alt="trophy" height={53} width={53} />
             </div>
           </div>
-          <h6 className=" text-slate-900 text-xl font-semibold font-roboto leading-5 my-2">Nibh viverra</h6>
+          <h6 className=" text-slate-900 text-xl font-semibold font-roboto leading-5 my-2">
+            Nibh viverra
+          </h6>
           <p className="text-slate-900 text-lg font-roboto font-normal leading-7 max-w-sm">
             Sit bibendum donec dolor fames neque vulputate non sit aliquam.
             Consequat turpis natoque leo, massa.
@@ -93,7 +95,9 @@ function CollectibleSneakers() {
               <Image src="/tunnel.svg" alt="trophy" height={53} width={53} />
             </div>
           </div>
-          <h6 className=" text-slate-900 text-xl font-semibold font-roboto leading-5 my-2">Cursus amet</h6>
+          <h6 className=" text-slate-900 text-xl font-semibold font-roboto leading-5 my-2">
+            Cursus amet
+          </h6>
           <p className="text-slate-900 text-lg font-roboto font-normal leading-7 max-w-sm">
             Sit bibendum donec dolor fames neque vulputate non sit aliquam.
             Consequat turpis natoque leo, massa.
@@ -106,7 +110,9 @@ function CollectibleSneakers() {
               <Image src="/tv.svg" alt="trophy" height={53} width={53} />
             </div>
           </div>
-          <h6 className=" text-slate-900 text-xl font-semibold font-roboto leading-5 my-2">Ipsum fermentum</h6>
+          <h6 className=" text-slate-900 text-xl font-semibold font-roboto leading-5 my-2">
+            Ipsum fermentum
+          </h6>
           <p className="text-slate-900 text-lg font-roboto font-normal leading-7 max-w-sm">
             Sit bibendum donec dolor fames neque vulputate non sit aliquam.
             Consequat turpis natoque leo, massa.

@@ -1,4 +1,5 @@
 import React, { ReactNode } from "react";
+import Image from "next/image";
 
 interface ButtonProps {
   children: ReactNode;
@@ -16,13 +17,12 @@ const Button = ({
   type,
   disabled,
   hasIcon,
-  icon: IconComponent,
   className,
 }: ButtonProps) => {
   const buttonClassName = `px-6 py-3 rounded-lg border-2 border-amber-900 text-amber-900 text-base font-semibold font-roboto tracking-wide ${
     hasIcon ? "flex items-center" : ""
   } ${className || ""}`;
- 
+
   return (
     <button
       type={type || "button"}
@@ -30,7 +30,15 @@ const Button = ({
       onClick={onClick}
       disabled={disabled}
     >
-      {hasIcon && IconComponent && <IconComponent className="mr-2" />}
+      {hasIcon && (
+        <Image
+          className="me-2"
+          src="/shopping-cart.svg"
+          alt="Shoes"
+          height={25}
+          width={25}
+        />
+      )}
       {children}
     </button>
   );
