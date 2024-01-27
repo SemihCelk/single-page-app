@@ -5,8 +5,8 @@ export default function MapBanner() {
   return (
     <div className="flex justify-center items-center bg-amber-900 lg:p-20 ps-3 -mt-5">
       <div className={`${styles.map} flex flex-col justify-center mt-20 `}>
-        <div className="w-64 h-54 flex-col justify-center items-center inline-flex -mt-[20%] ms-8">
-          <div className="w-[316px] h-56 ">
+        <div className="sm:w-64 w-52 h-54 flex-col justify-center items-center inline-flex -mt-[20%] ms-8 ">
+          <div className="sm:w-[316px] w-64 sm:h-56 h-44 z-10">
             <Image
               src="/shoes-front-back.png"
               alt="shoes image"

@@ -13,7 +13,7 @@ export default function GrowCollection() {
   return (
     <div className="md:bg-[#fefcf4] bg-white">
       <div className="md:px-20 px-5 z-20">
-        <h1 className=" text-slate-900 md:text-6xl text-2xl font-extrabold">
+        <h1 className=" text-slate-900 md:text-6xl text-center md:text-start text-3xl font-extrabold">
           Grow your collection
         </h1>
         <p className="text-slate-900 text-lg my-10">

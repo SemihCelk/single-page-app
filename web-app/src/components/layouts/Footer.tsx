@@ -128,10 +128,10 @@ export default function Footer() {
   };
   return (
     <footer className="bg-slate-900">
-      <div className="md:px-20 px-5 md:text-start text-center pb-8 md:pt-16 pt-8">
-        <div className="grid grid-cols-1 md:grid-cols-4 xl:gap-8 space-y-10">
-          <div>
-            <h3 className="text-sm font-bold leading-6 text-white">Product</h3>
+      <div className="md:px-20 px-5 md:text-start text-center pb-8  pt-8">
+        <div className="grid grid-cols-1 md:grid-cols-4 xl:gap-8 ">
+          <div className="my-5">
+            <h3 className="text-sm font-bold leading-6 text-white ">Product</h3>
             <ul role="list" className="mt-6 space-y-4">
               {navigation.product.map((item) => (
                 <li key={item.name}>
@@ -145,7 +145,7 @@ export default function Footer() {
               ))}
             </ul>
           </div>
-          <div>
+          <div className="my-5">
             <h3 className="text-sm font-bold leading-6 text-white">
               Solutions
             </h3>
@@ -162,7 +162,7 @@ export default function Footer() {
               ))}
             </ul>
           </div>
-          <div>
+          <div className="my-5">
             <h3 className="text-sm font-bold leading-6 text-white">Support</h3>
             <ul role="list" className="mt-6 space-y-4">
               {navigation.support.map((item) => (
@@ -177,7 +177,7 @@ export default function Footer() {
               ))}
             </ul>
           </div>
-          <div>
+          <div className="my-5">
             <div>
               <h5 className="text-white md:my-0 my-8">Get the App</h5>
               <Link

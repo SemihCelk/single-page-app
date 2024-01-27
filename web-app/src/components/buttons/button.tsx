@@ -19,7 +19,7 @@ const Button = ({
   hasIcon,
   className,
 }: ButtonProps) => {
-  const buttonClassName = ` py-3 rounded-lg border-2 border-amber-900 text-amber-900   ${
+  const buttonClassName = `py-3 rounded-lg border-2 border-amber-900 text-amber-900   ${
     hasIcon ? "flex items-center" : ""
   } ${className || ""}`;
 

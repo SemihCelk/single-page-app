@@ -12,8 +12,8 @@ export default function Home() {
       <SaleCardBanner />
       <JoinUs />
       <Comments />
-      <GrowCollection />
-      <MapBanner />
+    <GrowCollection />
+        <MapBanner />
     </main>
   );
 }

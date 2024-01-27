@@ -33,14 +33,14 @@ const saleCard = [
 ];
 const SaleCardBanner = () => {
   return (
-    <div className="md:mt-20 lg:px-20 py-20 px-10 bg-slate-900 border-t border-b border-slate-200 flex-col justify-center items-start gap-20 flex w-full ">
+    <div className=" lg:px-20 py-20 px-10 bg-slate-900 border-t border-b border-slate-200 flex-col justify-center items-start md:gap-20 gap-10 flex w-full ">
       <div className="md:flex md:justify-between text-center md:text-start items-center w-full">
-        <div className="text-white md:text-6xl text-3xl font-semibold  ">
+        <div className="text-white md:text-5xl text-3xl font-semibold  ">
           The best of the best
         </div>
         <Button
           children="Sign up now"
-          className={"text-white text-2xl font-bold font-roboto border-white px-12 rounded-lg border-2 md:mb-0 my-8"}
+          className={"text-white text-2xl font-bold font-roboto border-white px-10 rounded-lg border-2 md:mb-0 my-8"}
         />
       </div>
       <div className="relative w-full hidden  md:block">
@@ -52,7 +52,7 @@ const SaleCardBanner = () => {
       </div>
       <div className="relative w-full  block md:hidden">
         <div className="w-40 h-28 sm:left-[15%] -left-[5%] top-[67rem] absolute opacity-75 bg-fuchsia-700 rounded-3xl" />
-        <div className="w-40 h-40 left-[60%] top-[650px] absolute opacity-75 bg-sky-700 rounded-full " />
+        <div className="sm:w-40 w-24 sm:h-40 h-32 sm:left-[60%] left-[70%] top-[650px] absolute opacity-75 bg-sky-700 rounded-full " />
         <div className="w-44 h-36 left-[25%] top-[23rem] absolute opacity-75 bg-pink-700 rounded-[25%]" />
       </div>
       <div className="flex justify-between lg:justify-center md:flex-row flex-col md:items-start items-center lg:gap-12 gap-4 w-full -mt-20 md:space-y-0 space-y-4">

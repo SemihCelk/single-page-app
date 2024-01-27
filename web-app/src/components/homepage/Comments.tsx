@@ -57,10 +57,10 @@ const cardData = [
 export default function Comments() {
   const swiperRef: any = useRef();
   return (
-    <div className="md:py-20 md:bg-[#fefcf4] bg-white">
-      <div className="md:flex justify-between md:text-start text-center md:px-20 px-10 md:my-14 my-10">
-        <h1 className="text-slate-900 md:text-6xl text-2xl font-extrabold font-roboto">
-          Because they love us
+    <div className=" md:bg-[#fefcf4] bg-white">
+      <div className="md:flex justify-between md:text-start text-center md:px-20 px-10 md:py-14 py-10">
+        <h1 className=" text-slate-900 md:text-6xl text-center md:text-start text-3xl font-extrabold">
+        Because they love us
         </h1>
         <div className="md:flex hidden gap-6 me-3">
           <button
@@ -103,13 +103,13 @@ export default function Comments() {
               slidesPerView: 1,
             },
             640: {
-              slidesPerView: 1,
+              slidesPerView: 2,
             },
             768: {
               slidesPerView: 2,
             },
             1024: {
-              slidesPerView: 2,
+              slidesPerView:3,
             },
             1280: {
               slidesPerView: 3,
@@ -125,7 +125,7 @@ export default function Comments() {
           loop={true}
           scrollbar={{ draggable: true }}
           modules={[Navigation]}
-          className="h-[450px] 2xl:h-96 
+          className="h-[450px]  
           w-full"
         >
           {cardData.map((item, key) => (
