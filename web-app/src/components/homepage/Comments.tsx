@@ -57,12 +57,12 @@ const cardData = [
 export default function Comments() {
   const swiperRef: any = useRef();
   return (
-    <div className="py-20 bg-[#fefcf4]">
-      <div className="flex justify-between px-20 my-14">
-        <h1 className="text-slate-900 text-6xl font-extrabold font-roboto">
+    <div className="md:py-20 md:bg-[#fefcf4] bg-white">
+      <div className="md:flex justify-between md:text-start text-center md:px-20 px-10 md:my-14 my-10">
+        <h1 className="text-slate-900 md:text-6xl text-2xl font-extrabold font-roboto">
           Because they love us
         </h1>
-        <div className="flex gap-6 me-3">
+        <div className="md:flex hidden gap-6 me-3">
           <button
             onClick={() => swiperRef.current.slidePrev()}
             className="flex justify-center items-center p-2 rounded-full border-2 border-[#78350F] w-12 h-12"
@@ -125,12 +125,13 @@ export default function Comments() {
           loop={true}
           scrollbar={{ draggable: true }}
           modules={[Navigation]}
-          className="h-[600px] md:h-[500px] 2xl:h-96 w-full"
+          className="h-[450px] 2xl:h-96 
+          w-full"
         >
           {cardData.map((item, key) => (
             <SwiperSlide key={key}>
-              <div className="w-full h-[400px]  bg-white rounded-2xl shadow-xl border-2 border-slate-200 absolute">
-                <div className=" p-6 flex-col justify-start items-start gap-4 flex">
+              <div className="w-80 h-[400px]  bg-white rounded-2xl shadow-xl border-2 border-slate-200 absolute">
+                <div className=" md:p-6 p-3 flex-col justify-start items-start gap-4 flex">
                   <div className="py-4 justify-start items-center inline-flex">
                     <div className="justify-start items-center gap-2 flex">
                       <div className="w-8 h-8 flex items-center">
