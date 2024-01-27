@@ -7,7 +7,6 @@ interface ButtonProps {
   type?: "button" | "submit" | "reset";
   disabled?: boolean;
   hasIcon?: boolean;
-  icon?: any;
   className?: string;
 }
 
