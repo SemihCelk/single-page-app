@@ -1,1 +1,1 @@
-# single-page-app
+# Nextjs single web page application
